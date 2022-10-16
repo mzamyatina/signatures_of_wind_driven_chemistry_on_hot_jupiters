@@ -200,6 +200,46 @@ SUITES = {
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
                 ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "equilibrium"
+                    / "u-bl336"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "equilibrium"
+                    / "u-bl336"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "equilibrium"
+                    / "u-bl336"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "equilibrium"
+                    / "u-bl336"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
+                ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -474,6 +514,46 @@ SUITES = {
                     / "raw"
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
+                ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "kinetics"
+                    / "u-bl344"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "kinetics"
+                    / "u-bl344"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "kinetics"
+                    / "u-bl344"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hatp11b"
+                    / "kinetics"
+                    / "u-bl344"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
                 ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
@@ -752,6 +832,46 @@ SUITES = {
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
                 ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "equilibrium"
+                    / "u-bk868"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "equilibrium"
+                    / "u-bk868"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "equilibrium"
+                    / "u-bk868"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "equilibrium"
+                    / "u-bk868"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
+                ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -961,6 +1081,46 @@ SUITES = {
                     / "raw"
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
+                ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "kinetics"
+                    / "u-bk893"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "kinetics"
+                    / "u-bk893"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "kinetics"
+                    / "u-bk893"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd189733b"
+                    / "kinetics"
+                    / "u-bk893"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
                 ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
@@ -1174,6 +1334,46 @@ SUITES = {
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
                 ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "equilibrium"
+                    / "u-bk852"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "equilibrium"
+                    / "u-bk852"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "equilibrium"
+                    / "u-bk852"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "equilibrium"
+                    / "u-bk852"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
+                ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1383,6 +1583,46 @@ SUITES = {
                     / "raw"
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
+                ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "kinetics"
+                    / "u-bk871"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "kinetics"
+                    / "u-bk871"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "kinetics"
+                    / "u-bk871"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "hd209458b"
+                    / "kinetics"
+                    / "u-bk871"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
                 ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
@@ -1596,6 +1836,46 @@ SUITES = {
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
                 ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "equilibrium"
+                    / "u-bl436"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "equilibrium"
+                    / "u-bl436"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "equilibrium"
+                    / "u-bl436"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "equilibrium"
+                    / "u-bl436"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
+                ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1649,12 +1929,6 @@ SUITES = {
                     / "kinetics"
                     / "u-bl543"
                     / "merged"
-                ),
-                "dir_for_initial_pt_profile": Path(
-                    "/data/mz355/um_inputs/planets/wasp17b/initial_profile/pt_wasp17b_equilibrium.ncdf"
-                ),
-                "dir_for_cp_r": Path(
-                    "/data/mz355/um_inputs/planets/wasp17b/initial_profile/chem_wasp17b_equilibrium.ncdf"
                 ),
                 "dir_for_star_spectrum_lw": Path(
                     path_to_data_umserve
@@ -1812,6 +2086,46 @@ SUITES = {
                     / "atmos_base_1001"
                     / "atmosa.ph0000001000_00_night_nh3"
                 ),
+                "dir_for_transmission_day_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "kinetics"
+                    / "u-bl543"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_h2_cia"
+                ),
+                "dir_for_transmission_night_h2_h2_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "kinetics"
+                    / "u-bl543"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_h2_cia"
+                ),
+                "dir_for_transmission_day_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "kinetics"
+                    / "u-bl543"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_day_h2_he_cia"
+                ),
+                "dir_for_transmission_night_h2_he_cia": Path(
+                    path_to_data_umserve
+                    / "um_runs"
+                    / "wasp17b"
+                    / "kinetics"
+                    / "u-bl543"
+                    / "raw"
+                    / "atmos_base_1001"
+                    / "atmosa.ph0000001000_00_night_h2_he_cia"
+                ),
                 "dir_for_flux_contribution_function_lw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1900,7 +2214,7 @@ GASES = {
     "CH3": {"tex": "$CH_3$"},
     "H": {"tex": "$H$", "color": "C9"},
     "1CH2": {"tex": "$^{1}CH_2$"},
-    "H2": {"tex": "$H_2$", "color": "C0"},  # needs chaning (C0 as H2O)
+    "H2": {"tex": "$H_2$", "color": "C0"},  # needs changing (C0 as H2O)
     "CH4": {
         "molar_mass": iris.cube.Cube(
             16.043, units="g mol-1", long_name="CH4 molar mass"
@@ -1962,6 +2276,11 @@ GASES = {
     },
     "HNCO": {"tex": "$HNCO$"},
     "H2CN": {"tex": "$H_2CN$"},
+}
+
+CIA = {
+    "h2_h2_cia": {"tex": "$H_2$-$H_2$ CIA", "color": "C6"},
+    "h2_he_cia": {"tex": "$H_2$-He CIA", "color": "C8"},
 }
 
 STASH = {
