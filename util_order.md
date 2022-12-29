@@ -1,11 +1,22 @@
-0. calc_astro_parameters.ipynb, calc_astro_parameters_from_atmo.ipynb, calc_astro_parameters_from_um.ipynb, calc_elemental_abundances.ipynb
-1. proc_pp_to_nc.ipynb
-2. check_max_winds.ipynb, check_toa_net_energy_flux.ipynb, check_burden.ipynb
-3. plt_znl_mean_u_on_plevs.ipynb
-4. plt_temp_on_plevs_along_latitude.ipynb
-
-
-n. plt_absorption_cross_section.ipynb, calc_contribition_function.ipynb, plt_vars_at_norm_con_func_of_unity.ipynb
-
-n+1. calc_transmission_spectrum.ipynb
-n+2. calc_emission_spectrum.ipynb
+Code order
+1.1  calc_astro_parameters.ipynb
+1.2  calc_astro_parameters_from_atmo.ipynb
+1.3  calc_astro_parameters_from_um.ipynb
+1.4  calc_elemental_abundances.ipynb
+2.   proc_pp_to_nc.ipynb
+3.1  check_max_winds.ipynb
+3.2  check_toa_net_energy_flux.ipynb
+3.3  check_burden.ipynb
+4.1  plt_znl_mean_u_on_plevs.ipynb
+4.2  plt_latlon.ipynb
+4.3  check_dtheta_dz.ipynb
+5.   plt_temp_on_plevs_along_latitude.ipynb
+6.   plt_mole_frac_on_plevs_along_latitude.ipynb
+7.1  calc_contribition_function.ipynb
+7.2  plt_vars_at_norm_con_func_of_unity.ipynb
+7.3  plt_absorption_cross_section.ipynb
+8.   calc_transmission_spectrum.ipynb
+9.   calc_emission_spectrum.ipynb
+10.1 calc_phase_curve_timesteps.ipynb
+10.2 calc_phase_curve.ipynb
+11.  save_climate_variables.ipynb
