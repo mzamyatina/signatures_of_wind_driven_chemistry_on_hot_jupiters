@@ -16,3 +16,11 @@
 | Figure B3 | Chemical steady state | check_burden.ipynb |
 | Figures C1,C2 | Temperature, horizontal wind at 10<sup>4</sup>, 10<sup>5</sup> Pa | plt_latlon.ipynb |
 | Figure C6 | Absolute absorption cross-sections | plt_absorption_cross_section.ipynb |
+
+Utilities
+1. util_commons.py
+2. util_mypaths.py
+3. util_order.md
+4. util_plot_func.py
+5. util_proc_func.py
+6. util_paper.mplstyle
