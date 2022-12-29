@@ -8,7 +8,7 @@
 | Figure 5,6,C7 | Transmission spectra | calc_transmission_spectrum.ipynb |
 | Figure 7 | Emission spectra | calc_emission_spectrum.ipynb |
 | Figure 8 | Phase curves | calc_phase_curve_timesteps.ipynb,<br />calc_phase_curve.ipynb |
-| Table 3 |  Observability of signatures of transport-induced quenching | - |
+| Table 3 |  Observability of signatures of<br />transport-induced quenching | - |
 | Table A1 | Line lists and partition functions | - |
 | Table A2 | Pressure broadening | - |
 | Figure B1 | Dynamical steady state | check_max_winds.ipynb |
