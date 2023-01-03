@@ -2,12 +2,19 @@ import iris
 from pathlib import Path
 from util_mypaths import path_to_data_umserve
 
+PLANETS = {
+    "hatp11b": {"tex": "HAT-P-11b"},
+    "hd189733b": {"tex": "HD 189733b"},
+    "hd209458b": {"tex": "HD 209458b"},
+    "wasp17b": {"tex": "WASP-17b"},
+}
+
 SUITES = {
     "hatp11b": {
         "equilibrium": {
-            "solar": {
+            "1x solar": {
                 "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -16,10 +23,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hatp11b_equilibrium_mdh_0.ncdf"
                 ),
-                "suite": "u-bl336",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl336",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "equilibrium",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -261,9 +268,9 @@ SUITES = {
                     / "atmosa.pj0000001000_00_phase_curves"
                 ),
             },
-            "100solar": {
+            "100x solar": {
                 "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=2 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium mdh=2 dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -272,10 +279,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hatp11b_equilibrium_mdh_2.ncdf"
                 ),
-                "suite": "u-bl336",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl336",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "equilibrium",
-                "mdh": "2",
+                "metallicity": "2",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "bd257"
@@ -320,9 +327,9 @@ SUITES = {
             },
         },
         "kinetics": {
-            "solar": {
+            "1x solar": {
                 "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -331,10 +338,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hatp11b_equilibrium_mdh_0.ncdf"
                 ),
-                "suite": "u-bl344",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl344",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "kinetics",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -576,9 +583,9 @@ SUITES = {
                     / "atmosa.pj0000001000_00_phase_curves"
                 ),
             },
-            "100solar": {
+            "100x solar": {
                 "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=2 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium mdh=2 dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -587,10 +594,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hatp11b_equilibrium_mdh_2.ncdf"
                 ),
-                "suite": "u-bl344",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl344",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "kinetics",
-                "mdh": "2",
+                "metallicity": "2",
                 "dir_for_raw_1": Path(
                     path_to_data_umserve
                     / "bd257"
@@ -645,9 +652,9 @@ SUITES = {
     },
     "hd189733b": {
         "equilibrium": {
-            "solar": {
+            "1x solar": {
                 "planet": "hd189733b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -656,10 +663,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hd189733b_equilibrium.ncdf"
                 ),
-                "suite": "u-bk868",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bk868",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "equilibrium",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -895,9 +902,9 @@ SUITES = {
             }
         },
         "kinetics": {
-            "solar": {
+            "1x solar": {
                 "planet": "hd189733b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -906,10 +913,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hd189733b_equilibrium.ncdf"
                 ),
-                "suite": "u-bk893",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bk893",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "kinetics",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1147,9 +1154,9 @@ SUITES = {
     },
     "hd209458b": {
         "equilibrium": {
-            "solar": {
+            "1x solar": {
                 "planet": "hd209458b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -1158,10 +1165,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hd209458b_equilibrium.ncdf"
                 ),
-                "suite": "u-bk852",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bk852",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "equilibrium",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1397,9 +1404,9 @@ SUITES = {
             }
         },
         "kinetics": {
-            "solar": {
+            "1x solar": {
                 "planet": "hd209458b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -1408,10 +1415,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_hd209458b_equilibrium.ncdf"
                 ),
-                "suite": "u-bk871",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bk871",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "kinetics",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1649,9 +1656,9 @@ SUITES = {
     },
     "wasp17b": {
         "equilibrium": {
-            "solar": {
+            "1x solar": {
                 "planet": "wasp17b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -1660,10 +1667,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_wasp17b_equilibrium.ncdf"
                 ),
-                "suite": "u-bl436",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl436",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "equilibrium",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -1899,9 +1906,9 @@ SUITES = {
             }
         },
         "kinetics": {
-            "solar": {
+            "1x solar": {
                 "planet": "wasp17b",
-                "initial_pt_profile_info": "1D ATMO Venot2019reduced equilibrium mdh=0 dayside-average",
+                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium 1x solar dayside-average",
                 "initial_pt_profile_file": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -1910,10 +1917,10 @@ SUITES = {
                     / "initial_profile"
                     / "pt_wasp17b_equilibrium.ncdf"
                 ),
-                "suite": "u-bl543",
-                "chemical_network": "Venot2019reduced",
+                "rose_suite": "u-bl543",
+                "chemical_network": "reduced Venot2019",
                 "chemical_scheme": "kinetics",
-                "mdh": "0",
+                "metallicity": "1x solar",
                 "dir_for_raw": Path(
                     path_to_data_umserve
                     / "um_runs"
@@ -2151,64 +2158,6 @@ SUITES = {
     },
 }
 
-PLANETS = {
-    "hatp11b": {"tex": "HAT-P-11b"},
-    "hd189733b": {"tex": "HD 189733b"},
-    "hd209458b": {"tex": "HD 209458b"},
-    "wasp17b": {"tex": "WASP-17b"},
-}
-
-VENOT2019 = {
-    "all_gases": [
-        "1CH2",
-        "3CH2",
-        "CH2OH",
-        "CH3",
-        "CH3O",
-        "CH3OH",
-        "CH4",
-        "CN",
-        "CO",
-        "CO2",
-        "H",
-        "H2",
-        "H2CN",
-        "H2CO",
-        "H2O",
-        "HCN",
-        "HCO",
-        "He",
-        "HNCO",
-        "HOCN",
-        "N2",
-        "N2H2",
-        "N2H3",
-        "NCO",
-        "NH",
-        "NH2",
-        "NH3",
-        "NNH",
-        "O-3P",
-        "OH",
-    ],
-    "bath_gases": ["CO", "CO2", "H2O", "CH4", "H2", "N2", "He", "O-3P", "NH3"],
-}
-
-# GASES = {
-#     "ch4": {"tex": "$CH_4$", "color": "C3"},
-#     "co": {"tex": "CO", "color": "C1"},
-#     "co2": {"tex": "$CO_2$", "color": "C5"},
-#     "h": {"tex": "H", "color": "C9"},
-#     "h2": {"tex": "$H_2$", "color": "C0"},
-#     "h2o": {"tex": "$H_2O$", "color": "C6"},
-#     "hcn": {"tex": "HCN", "color": "C8"},
-#     #     'he'  : {'tex' : 'He', 'color' : 'C4'},
-#     "n2": {"tex": "$N_2$", "color": "C7"},
-#     "nh3": {"tex": "$NH_3$", "color": "C2"},
-# }
-# # Gases mentioned in Moses2011
-# # O-3P OH NO H2CO HNCO CH3OH; C N (not in UM?); CH3 He NH2
-
 GASES = {
     "He": {"tex": "$He$", "color": "C4"},  # needs changing (C4 as HCN)
     "CH3": {"tex": "$CH_3$"},
@@ -2284,21 +2233,14 @@ CIA = {
 }
 
 STASH = {
-    #     "tendency_of_air_temperature_due_to_longwave_heating": "tendency_of_air_temperature_due_to_longwave_heating",
-    #     "tendency_of_air_temperature_due_to_shortwave_heating": "tendency_of_air_temperature_due_to_shortwave_heating",
     "x_wind": "x_wind",
     "y_wind": "y_wind",
     "upward_air_velocity": "upward_air_velocity",
-    #     "air_potential_temperature": "air_potential_temperature",
     "air_pressure": "air_pressure",
     "air_temperature": "air_temperature",
     "toa_incoming_shortwave_flux": "toa_incoming_shortwave_flux",
     "toa_outgoing_longwave_flux": "toa_outgoing_longwave_flux",
     "toa_outgoing_shortwave_flux": "toa_outgoing_shortwave_flux",
-    #     "m01s00i253": "DENSITY*R*R AFTER TIMESTEP",
-    #     "dimensionless_exner_function": "dimensionless_exner_function",
-    #     "surface_air_pressure": "surface_air_pressure",
-    #     "surface_temperature": "surface_temperature",
     "m01s56i001": "H mole fraction",
     "m01s56i002": "OH mole fraction",
     "m01s56i003": "CH3 mole fraction",
@@ -2329,6 +2271,4 @@ STASH = {
     "m01s56i028": "H2CN mole fraction",
     "m01s56i029": "CO2 mole fraction",
     "m01s56i030": "He mole fraction",
-    #     'm01s01i755' : 'TRANSMISSION SPECTRUM 2nd CALL',
-    #     'm01s02i713' : 'LW EMISSION SPECTRUM 2nd CALL',
 }
