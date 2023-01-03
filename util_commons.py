@@ -43,14 +43,6 @@ SUITES = {
                     / "u-bl336"
                     / "merged"
                 ),
-                "dir_for_regridded": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "equilibrium"
-                    / "u-bl336"
-                    / "regridded"
-                ),
                 "dir_for_star_spectrum_lw": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -266,63 +258,6 @@ SUITES = {
                     / "raw"
                     / "atmos_base_1006"
                     / "atmosa.pj0000001000_00_phase_curves"
-                ),
-            },
-            "100x solar": {
-                "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium mdh=2 dayside-average",
-                "initial_pt_profile_file": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "initial_profile"
-                    / "pt_hatp11b_equilibrium_mdh_2.ncdf"
-                ),
-                "rose_suite": "u-bl336",
-                "chemical_network": "reduced Venot2019",
-                "chemical_scheme": "equilibrium",
-                "metallicity": "2",
-                "dir_for_raw": Path(
-                    path_to_data_umserve
-                    / "bd257"
-                    / "um_runs"
-                    / "kinetics"
-                    / "hatp11_rt"
-                    / "u-bl336"
-                    / "raw_output"
-                ),
-                "dir_for_merged": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "equilibrium"
-                    / "u-bl336_100timesSolar"
-                    / "merged"
-                ),
-                "dir_for_regridded": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "equilibrium"
-                    / "u-bl336_100timesSolar"
-                    / "regridded"
-                ),
-                "dir_for_star_spectrum_lw": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "spectral_files"
-                    / "sp_lw_500ir_bd_hatp11"
-                ),
-                "dir_for_star_spectrum_sw": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "spectral_files"
-                    / "sp_sw_500ir_bd_hatp11"
                 ),
             },
         },
@@ -358,14 +293,6 @@ SUITES = {
                     / "u-bl344"
                     / "merged"
                 ),
-                "dir_for_regridded": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "kinetics"
-                    / "u-bl344"
-                    / "regridded"
-                ),
                 "dir_for_star_spectrum_lw": Path(
                     path_to_data_umserve
                     / "um_inputs"
@@ -581,71 +508,6 @@ SUITES = {
                     / "raw"
                     / "atmos_base_1006"
                     / "atmosa.pj0000001000_00_phase_curves"
-                ),
-            },
-            "100x solar": {
-                "planet": "hatp11b",
-                "initial_pt_profile_info": "1D ATMO Venot2012 equilibrium mdh=2 dayside-average",
-                "initial_pt_profile_file": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "initial_profile"
-                    / "pt_hatp11b_equilibrium_mdh_2.ncdf"
-                ),
-                "rose_suite": "u-bl344",
-                "chemical_network": "reduced Venot2019",
-                "chemical_scheme": "kinetics",
-                "metallicity": "2",
-                "dir_for_raw_1": Path(
-                    path_to_data_umserve
-                    / "bd257"
-                    / "um_runs"
-                    / "kinetics"
-                    / "hatp11_rt"
-                    / "u-bl344"
-                    / "raw_output"  # 0-1000 days
-                ),
-                "dir_for_raw_2": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "kinetics"
-                    / "u-bl344_100timesSolar"
-                    / "raw"  # 1000-2000 days
-                ),
-                "dir_for_merged": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "kinetics"
-                    / "u-bl344_100timesSolar"
-                    / "merged"
-                ),
-                "dir_for_regridded": Path(
-                    path_to_data_umserve
-                    / "um_runs"
-                    / "hatp11b"
-                    / "kinetics"
-                    / "u-bl344_100timesSolar"
-                    / "regridded"
-                ),
-                "dir_for_star_spectrum_lw": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "spectral_files"
-                    / "sp_lw_500ir_bd_hatp11"
-                ),
-                "dir_for_star_spectrum_sw": Path(
-                    path_to_data_umserve
-                    / "um_inputs"
-                    / "planets"
-                    / "hatp11b"
-                    / "spectral_files"
-                    / "sp_sw_500ir_bd_hatp11"
                 ),
             },
         },
