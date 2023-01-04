@@ -142,7 +142,7 @@ def draw_vector_cubes(
             0.595,
             0.16,
             qk_ref_wspd,
-            fr"${qk_ref_wspd}$" + r" $m$ $s^{-1}$",
+            rf"${qk_ref_wspd}$" + r" $m$ $s^{-1}$",
             labelpos="N",
             labelsep=0.05,
             coordinates="figure",
@@ -151,7 +151,7 @@ def draw_vector_cubes(
         )
 
     if add_wind_contours:
-        wspd = (u ** 2 + v ** 2) ** 0.5
+        wspd = (u**2 + v**2) ** 0.5
         ax.contour(
             lons,
             lats,
