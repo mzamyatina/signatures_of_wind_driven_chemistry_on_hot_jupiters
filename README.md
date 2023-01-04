@@ -25,9 +25,9 @@ Tables and Figures
 Utilities
 | Description | Code |
 |:------------|:-----|
-| Master distionaries | util_commons.py |
+| Master dictionaries | util_commons.py |
 | Master paths | util_mypaths.py |
 | Code order | util_order.md |
-| Functions for plotting| util_plot_func.py |
+| Functions for plotting | util_plot_func.py |
 | Figure style | util_paper.mplstyle |
 | Post-processing | proc_pp_to_nc.ipynb |
