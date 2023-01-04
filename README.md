@@ -25,6 +25,7 @@ Tables and Figures
 Utilities
 | Description | Code |
 |:------------|:-----|
+| Python environment | environment.yml |
 | Master dictionaries | util_commons.py |
 | Master paths | util_mypaths.py |
 | Code order | util_order.md |
