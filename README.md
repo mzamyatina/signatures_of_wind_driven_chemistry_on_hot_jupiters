@@ -6,7 +6,7 @@ Tables and Figures
 | Item | Description | Code |
 |:-----|:------------|:-----|
 | Tables 1,2 | Stellar and planetary parameters | calc_astro_parameters.ipynb,<br />calc_astro_parameters_from_atmo.ipynb,<br />calc_astro_parameters_from_um.ipynb,<br />calc_elemental_abundances.ipynb |
-| Figure 1 | Zonal-mean zonal wind speed | plt_znl_mean_pres_u.ipynb,<br />plt_latlon_var_wind_at_plevs.ipynb |
+| Figure 1 | Zonal-mean zonal wind speed | plt_znl_mean_pres_u.ipynb |
 | Figure 2 | Pressure-temperature profiles | plt_vp_pres_temp_along_latitude.ipynb,<br />check_dtheta_dz.ipynb |
 | Figures 3,C3 | Chemical species vertical profiles | plt_vp_pres_molefrac_along_latitude.ipynb |
 | Figures 4,C4,C5 | Photosphere | calc_contribition_function.ipynb,<br />plt_latlon_var_at_norm_con_func_of_1.ipynb |
@@ -19,7 +19,7 @@ Tables and Figures
 | Figure B1 | Dynamical steady state | check_max_winds.ipynb |
 | Figure B2 | Radiative steady state | check_toa_net_energy_flux.ipynb |
 | Figure B3 | Chemical steady state | check_burden.ipynb |
-| Figures C1,C2 | Temperature, horizontal wind at 10<sup>4</sup>, 10<sup>5</sup> Pa | plt_latlon.ipynb |
+| Figures C1,C2 | Temperature, horizontal wind at 10<sup>4</sup>, 10<sup>5</sup> Pa | plt_latlon_var_wind_at_plevs.ipynb |
 | Figure C6 | Absolute absorption cross-sections | plt_absorption_cross_section.ipynb |
 
 Utilities
