@@ -1,3 +1,8 @@
+Code for reproducing results from
+
+Maria Zamyatina, Eric Hébrard, Benjamin Drummond, Nathan J Mayne, James Manners, Duncan A Christie, Pascal Tremblin, David K Sing, Krisztian Kohary, Observability of signatures of transport-induced chemistry in clear atmospheres of hot gas giant exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac3432, https://doi.org/10.1093/mnras/stac3432
+
+Tables and Figures
 | Item | Description | Code |
 |:-----|:------------|:-----|
 | Tables 1,2 | Stellar and planetary parameters | calc_astro_parameters.ipynb,<br />calc_astro_parameters_from_atmo.ipynb,<br />calc_astro_parameters_from_um.ipynb,<br />calc_elemental_abundances.ipynb |
@@ -18,10 +23,11 @@
 | Figure C6 | Absolute absorption cross-sections | plt_absorption_cross_section.ipynb |
 
 Utilities
-1. util_commons.py
-2. util_mypaths.py
-3. util_order.md
-4. util_plot_func.py
-5. util_proc_func.py
-6. util_paper.mplstyle
-7. proc_pp_to_nc.ipynb
+| Description | Code |
+|:------------|:-----|
+| Master distionaries | util_commons.py |
+| Master paths | util_mypaths.py |
+| Code order | util_order.md |
+| Functions for plotting| util_plot_func.py |
+| Figure style | util_paper.mplstyle |
+| Post-processing | proc_pp_to_nc.ipynb |
