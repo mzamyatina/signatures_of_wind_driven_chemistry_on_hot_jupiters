@@ -2,7 +2,7 @@
 |:-----|:------------|:-----|
 | Tables 1,2 | Stellar and planetary parameters | calc_astro_parameters.ipynb,<br />calc_astro_parameters_from_atmo.ipynb,<br />calc_astro_parameters_from_um.ipynb,<br />calc_elemental_abundances.ipynb |
 | Figure 1 | Zonal-mean zonal wind speed | plt_znl_mean_u_on_plevs.ipynb |
-| Figure 2 | Pressure-temperature profiles | plt_temp_on_plevs_along_latitude.ipynb |
+| Figure 2 | Pressure-temperature profiles | plt_temp_on_plevs_along_latitude.ipynb,<br />check_dtheta_dz.ipynb |
 | Figures 3,C3 | Chemical species vertical profiles | plt_mole_frac_on_plevs_along_latitude.ipynb |
 | Figures 4,C4,C5 | Photosphere | calc_contribition_function.ipynb,<br />plt_vars_at_norm_con_func_of_unity.ipynb |
 | Figures 5,6,C7 | Transmission spectra | calc_transmission_spectrum.ipynb |
@@ -24,3 +24,4 @@ Utilities
 4. util_plot_func.py
 5. util_proc_func.py
 6. util_paper.mplstyle
+7. proc_pp_to_nc.ipynb
