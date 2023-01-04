@@ -6,10 +6,10 @@ Tables and Figures
 | Item | Description | Code |
 |:-----|:------------|:-----|
 | Tables 1,2 | Stellar and planetary parameters | calc_astro_parameters.ipynb,<br />calc_astro_parameters_from_atmo.ipynb,<br />calc_astro_parameters_from_um.ipynb,<br />calc_elemental_abundances.ipynb |
-| Figure 1 | Zonal-mean zonal wind speed | plt_znl_mean_u_on_plevs.ipynb |
-| Figure 2 | Pressure-temperature profiles | plt_temp_on_plevs_along_latitude.ipynb,<br />check_dtheta_dz.ipynb |
-| Figures 3,C3 | Chemical species vertical profiles | plt_mole_frac_on_plevs_along_latitude.ipynb |
-| Figures 4,C4,C5 | Photosphere | calc_contribition_function.ipynb,<br />plt_vars_at_norm_con_func_of_unity.ipynb |
+| Figure 1 | Zonal-mean zonal wind speed | plt_znl_mean_pres_u.ipynb,<br />plt_latlon_var_wind_at_plevs.ipynb |
+| Figure 2 | Pressure-temperature profiles | plt_vp_pres_temp_along_latitude.ipynb,<br />check_dtheta_dz.ipynb |
+| Figures 3,C3 | Chemical species vertical profiles | plt_vp_pres_molefrac_along_latitude.ipynb |
+| Figures 4,C4,C5 | Photosphere | calc_contribition_function.ipynb,<br />plt_latlon_var_at_norm_con_func_of_1.ipynb |
 | Figures 5,6,C7 | Transmission spectra | calc_transmission_spectrum.ipynb |
 | Figure 7 | Emission spectra | calc_emission_spectrum.ipynb |
 | Figure 8 | Phase curves | calc_phase_curve_timesteps.ipynb,<br />calc_phase_curve.ipynb |
