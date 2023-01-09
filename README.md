@@ -1,6 +1,6 @@
 Code for reproducing results from
 
-Maria Zamyatina, Eric Hébrard, Benjamin Drummond, Nathan J Mayne, James Manners, Duncan A Christie, Pascal Tremblin, David K Sing, Krisztian Kohary, Observability of signatures of transport-induced chemistry in clear atmospheres of hot gas giant exoplanets, Monthly Notices of the Royal Astronomical Society, 2022;, stac3432, https://doi.org/10.1093/mnras/stac3432
+Maria Zamyatina, Eric Hébrard, Benjamin Drummond, Nathan J Mayne, James Manners, Duncan A Christie, Pascal Tremblin, David K Sing, Krisztian Kohary, Observability of signatures of transport-induced chemistry in clear atmospheres of hot gas giant exoplanets, Monthly Notices of the Royal Astronomical Society, Volume 519, Issue 2, February 2023, Pages 3129–3153, https://doi.org/10.1093/mnras/stac3432
 
 Tables and Figures
 | Item | Description | Code |
