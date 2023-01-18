@@ -1,0 +1,1 @@
+[{"name": "au", "units": "m", "value": 149597870700.0}, {"name": "sun_radius", "units": "m", "value": 695508000.0}, {"name": "jupiter_radius", "units": "m", "value": 69911000.0}, {"name": "jupiter_mass", "units": "kg", "value": 1.89852e+27}, {"name": "gravitational_constant", "units": "m3 kg-1 s-2", "value": 6.67428e-11}]
